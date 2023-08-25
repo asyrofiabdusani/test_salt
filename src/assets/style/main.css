@@ -1,0 +1,25 @@
+.main-container {
+    width: 420px;
+    margin: 0 auto;
+}
+
+.translate-y-banner {
+    transform: translateY(-100px);
+}
+.translate-y-chevron {
+    transform: translateY(-50%);
+}
+.bg-footer {
+    background-image: url("../img/BG.png");
+    background-repeat: no-repeat;
+}
+.v-carousel__controls__item.v-btn.v-btn--icon {
+    background-color: #ebece9; /* Background color of non-active ones */
+    height: 10px; /* Height you want */
+    width: 10px; /* Width you want */
+    border-radius: 100%; /* Remove default border radius */
+}
+
+.v-carousel__controls__item.v-btn.v-btn--icon.v-btn--active {
+    background-color: #1ba0e1; /* Colour for active one */
+}
